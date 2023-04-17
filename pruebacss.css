@@ -1,8 +1,4 @@
-header h1{
-   text-align: left;
-   padding: 0px 20px;
-   margin:0;
-   }
+
 header nav ul{
     text-align: right;
     list-style-type: none;
@@ -11,7 +7,7 @@ header nav ul{
     justify-content:space-between;
     align-items: center;
     padding: 20px;
-    margin: 30px;
+    margin: 55px;
 }
 header{
     display:flex;
@@ -65,7 +61,7 @@ P{
     padding: 150px;
 }
 .boton button {
-   background-color: rgb(21, 180, 127);
+   background-color: rgb(0,0, 0);
     border: solid; 
     border-radius: 10px;
     font-size: 20px;
@@ -76,7 +72,7 @@ P{
     text-decoration: none;
 }
 .boton a:link{
-    color: blue;
+    color:white;
 }
 .boton a:visited{
     color: greenyellow;
@@ -86,4 +82,56 @@ P{
 }
 .boton a:active{
     color: rebeccapurple;
+}
+#unico h2{
+   font-size: 40px;
+    /* width: 200px; */
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+.facil{
+    border: solid;
+    border-radius: 5px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0,0,0,0.6);
+}
+section{
+    padding: 100px;
+}
+section .facil:hover{
+     box-shadow: 0 0.1rem 0.6rem rgba(255, 255, 255, 0.5);
+}
+.facil p {
+    text-align: center;
+    color: wheat;
+}
+.Logo img{
+    float: left;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: -25px;
+    left: 50px;
+}
+nav a:link{
+    color: wheat;
+}
+nav a:visited{
+    color: wheat;
+}
+nav a:hover{
+    color: white;
+}
+nav a:active{
+    color: black;
+}
+footer{
+    padding: 20px 20px;
 }
