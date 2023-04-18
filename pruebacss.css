@@ -153,3 +153,24 @@ section{
 section .Testimonios:hover{
      box-shadow: 0 0.1rem 0.6rem rgba(255, 255, 255, 0.5);
 }
+.imgTestimonios{
+    position: absolute;
+    right: 50px;
+}
+.imgTestimonios img{
+    width: 250px;
+    height: 180px;
+    display: inline;
+    padding: 10px;
+    margin: 30px;
+}
+.imagen3{
+    display: inline;
+    position: absolute;
+    right: 50px;
+    bottom: -40px;
+    }
+    .imagen3 img{
+        width: 250px;
+        height: 200px;
+    }
