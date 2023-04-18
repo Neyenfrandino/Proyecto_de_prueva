@@ -156,21 +156,51 @@ section .Testimonios:hover{
 .imgTestimonios{
     position: absolute;
     right: 50px;
+    bottom: 85px;
 }
 .imgTestimonios img{
     width: 250px;
     height: 180px;
     display: inline;
-    padding: 10px;
     margin: 30px;
+    border: solid;
+    border-radius: 10px;
+    color: black;
 }
 .imagen3{
     display: inline;
     position: absolute;
     right: 50px;
     bottom: -40px;
-    }
-    .imagen3 img{
-        width: 250px;
-        height: 200px;
-    }
+}
+ .imagen3 img{
+     width: 250px;
+     height: 200px;
+     border: solid;
+     border-radius: 10px;
+     color: black;
+}
+.imagen2{
+     display: inline;
+    position: absolute;
+    right: 250px;
+    bottom: 100px;
+
+}
+
+.imagen2 img{
+    width: 250px;
+    height: 200px;
+    border: solid;
+    border-radius: 10px;
+    color: black;
+}
+.imgTestimonios img:hover{
+    box-shadow: 0 0.1rem 0.6rem rgba(255, 255, 255, 0.9);
+}
+.imagen3 img:hover{
+    box-shadow: 0 0.1rem 0.6rem rgba(255, 255, 255, 0.9);
+}
+.imagen2 img:hover{
+    box-shadow: 0 0.1rem 0.6rem rgba(255, 255, 255, 0.9);
+}
