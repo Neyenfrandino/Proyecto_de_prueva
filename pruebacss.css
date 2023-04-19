@@ -135,6 +135,8 @@ nav a:active{
 }
 footer{
     padding: 20px 20px;
+    position: absolute;
+    bottom: -700px;
 }
 .Testimonios{
     border: solid;
@@ -212,11 +214,63 @@ section .Testimonios:hover{
     margin: 0;
     text-align: center;
     padding: 10px;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(6, 246, 42, 0.3);
     position: absolute;
     right: 20px;
     bottom: -600px;
 }
 section .Testimonio2:hover{
     box-shadow: 0 0.1rem 0.6rem rgba(255, 255, 255, 0.5);
+}
+.Testimonio2img1{
+    position: absolute;
+    left: 20px;
+    bottom: -600px;
+}
+.Testimonio2img1 img{
+    width: 250px;
+    height: 180px;
+    display: inline;
+    margin: 30px;
+    border: solid;
+    border-radius: 10px;
+    color: black;
+}
+.Testimonio2img1 img:hover{
+    box-shadow: 0 0.1rem 0.6rem rgba(255, 255, 255, 0.9);
+}
+.Testimonio2img2{
+    position: absolute;
+    left: 400px;
+    bottom: -600px;
+}
+.Testimonio2img2 img{
+    width: 250px;
+    height: 180px;
+    display: inline;
+    margin: 30px;
+    border: solid;
+    border-radius: 10px;
+    color: black;
+}
+.Testimonio2img2 img:hover{
+    box-shadow: 0 0.1rem 0.6rem rgba(255, 255, 255, 0.9);
+}
+
+.Testimonio2img3{
+    position: absolute;
+    left: 235px;
+    bottom: -500px;
+}
+.Testimonio2img3 img{
+    width: 200px;
+    height: 250px;
+    display: inline;
+    margin: 30px;
+    border: solid;
+    border-radius: 10px;
+    color: black;
+}
+.Testimonio2img3 img:hover{
+    box-shadow: 0 0.1rem 0.6rem rgba(255, 255, 255, 0.9);
 }
