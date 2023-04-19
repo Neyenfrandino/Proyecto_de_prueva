@@ -38,9 +38,10 @@ img{
 body{
     background-image: url(img/hd1.jpg);
     background-size: cover;
-    height: 1000px;
+    height: 1300px;
     border: solid;
     border-radius: 5px;
+
 }
 .Titulo{
     color: rgb(192, 221, 86);
@@ -203,4 +204,19 @@ section .Testimonios:hover{
 }
 .imagen2 img:hover{
     box-shadow: 0 0.1rem 0.6rem rgba(255, 255, 255, 0.9);
+}
+.Testimonio2{
+    border: solid;
+    border-radius: 5px;
+    width: 500px;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    right: 20px;
+    bottom: -600px;
+}
+section .Testimonio2:hover{
+    box-shadow: 0 0.1rem 0.6rem rgba(255, 255, 255, 0.5);
 }
