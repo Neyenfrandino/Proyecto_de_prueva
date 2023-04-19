@@ -36,7 +36,7 @@ img{
     margin-right: 200px;
 }
 body{
-    background-image: url(img/hd1.jpg);
+    background-image: url(img/pexels-ameruverse-digital-marketing-media-1643409.jpg);
     background-size: cover;
     height: 1300px;
     border: solid;
@@ -145,7 +145,7 @@ footer{
     margin: 0;
     text-align: center;
     padding: 10px;
-    background-color: rgba(0,0,0,0.6);
+    background-color:rgba(6, 246, 42, 0.3);
     position: absolute;
     left: 20px;
 
@@ -274,3 +274,27 @@ section .Testimonio2:hover{
 .Testimonio2img3 img:hover{
     box-shadow: 0 0.1rem 0.6rem rgba(255, 255, 255, 0.9);
 }
+.Contactanos{
+    text-align: center; 
+    color: wheat;
+}
+.formulario{
+    text-align: center;
+    color: wheat;
+    display: flex;
+    position: absolute;
+    left: 280px;
+    border: solid;
+    border-radius: 25px;
+}
+.formulario div input{
+    border:solid;
+    border-radius: 25px;
+}
+.formulario button{
+    border: solid;
+    border-radius: 50px;
+    padding: 5px 150px 5px 150px;
+    margin: 20px;
+}
+

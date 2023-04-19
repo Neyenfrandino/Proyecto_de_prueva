@@ -1,12 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <title>Document</title>
+    <link rel="stylesheet" href="pruebacss.css">
 </head>
+<header id="unico">
+    <h2>Contactanos...</h2>   
+</header>
 <body>
+    <div class="Logo">
+        <img src="img/logotipo_3.png">
+    </div>
+    <div class="Contactanos">
+        <h2>¿Alguna pregunta o comentario?¡Solo escribenos un mensaje!</h2>
+    </div>
+    <section class="formulario">
+        <form action="Formulario" method="post">
+            <div>
+                <label for="Nombre y Apellido">Nombre y Apellido</label>
+                <input id="Nombre y Apellido" placeholder="Ej:.Cristian romero">
+                <label for="Email">Email</label>
+                <input id="Email" placeholder="Ej:.Cristianromero1@gmail.com">
+            </div>
+            <br>
+            <div>
+                <textarea name="Comentraio" id="Cometario" cols="70" rows="05" placeholder="Dejanos tu Comentario..."></textarea>
+            </div>
+            <button type="submit" name="Email Nombre Y Apellido" value="Entregar">Entregar</button>
+        </form>
+        
+    </section>
     
 </body>
 </html>
