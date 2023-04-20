@@ -318,25 +318,27 @@ section .Testimonio2:hover{
     position: absolute;
     bottom: -500px;
     left: 250px;
-}
-.adicional ul li{
-    font-size: 20px;
-    display: flex;
-    /* position: absolute; */
-    left: 80px;
-
-
+    background-color: rgba(6, 246, 42, 0.3) ;
+    height: 100px;
+    width: 550px;
 }
 .redes{
     display:flex;
     position: absolute;
-    color: gold;
-    bottom: -470px;
+    bottom: -420px;
     left: 300px;
 }
 .redes2{
-    left: 290px;
-    bottom: -530px;
+    left: 280px;
+    bottom: -480px;
 }
-
+.redes p{
+    color: gold;
+}
+.redes2 li{
+    color: wheat;
+}
+.redes2 a{
+    color: wheat;
+}
 
