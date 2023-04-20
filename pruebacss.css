@@ -317,7 +317,7 @@ section .Testimonio2:hover{
     display: flex;
     position: absolute;
     bottom: -500px;
-    left: 250px;
+    left: 280px;
     background-color: rgba(6, 246, 42, 0.3) ;
     height: 100px;
     width: 550px;
@@ -326,19 +326,42 @@ section .Testimonio2:hover{
     display:flex;
     position: absolute;
     bottom: -420px;
-    left: 300px;
+    left: 330px;
 }
 .redes2{
-    left: 280px;
+    left: 310px;
     bottom: -480px;
 }
 .redes p{
     color: gold;
 }
-.redes2 li{
+.redes2 li:hover{
     color: wheat;
 }
 .redes2 a{
     color: wheat;
 }
+.telefono{
+    display: flex;
+    position: absolute;
+    bottom: -420px;
+    left: 600px;
+}
+.telefono2{
+    left: 520px;
+    bottom: -480px;
+}
+.telefono p{
+    color: gold;
+}
+.telefono2{
+    color: wheat;
+}
+.telefono2 li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+
 
