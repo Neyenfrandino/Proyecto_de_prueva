@@ -381,6 +381,45 @@ section .Testimonio2:hover{
     color: white;
     cursor: pointer;
 }
+.portafolio{
+    background-color: rgba(6, 246, 42, 0.3);
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+}
+.portafolio img{
+    height: 200px;
+    width: 200px;
+    border: solid black;
+    border-radius: 25px;
+
+}
+.img{
+    display: flex;
+    padding: 15px 15px 15px 15px;
+    margin: 0px 70px;
+    
+    
+}
+.img img{
+    margin: 0 180px 0 0;
+}
+.img img:hover{
+    box-shadow: 0 0.1rem 0.6rem rgba(255, 255, 255, 0.9);
+}
+.portafolio2{
+    background-color:rgba(6, 246, 42, 0.3) ;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+}
+.portafolio2 img{
+    height: 200px;
+    width: 200px;
+    border: solid black;
+    border-radius: 25px;
+}
+
+
+
 
 
 
