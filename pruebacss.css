@@ -361,6 +361,28 @@ section .Testimonio2:hover{
     color: white;
     cursor: pointer;
 }
+.ubicacion{
+    display: flex;
+    position: absolute;
+    bottom: -420px;
+    left: 850px;
+}
+.ubicacion2{
+    left: 745px;
+    bottom: -510px;
+}
+.ubicacion p{
+    color: gold;
+}
+.ubicacion2{
+    color: wheat;
+}
+.ubicacion2 li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
 
 
 
