@@ -308,5 +308,35 @@ section .Testimonio2:hover{
     color: gold;
     cursor: pointer;
 }
+.adicional div img{
+    height: 50px;
+    width: 50px;
+
+}
+.adicional{
+    display: flex;
+    position: absolute;
+    bottom: -500px;
+    left: 250px;
+}
+.adicional ul li{
+    font-size: 20px;
+    display: flex;
+    /* position: absolute; */
+    left: 80px;
+
+
+}
+.redes{
+    display:flex;
+    position: absolute;
+    color: gold;
+    bottom: -470px;
+    left: 300px;
+}
+.redes2{
+    left: 290px;
+    bottom: -530px;
+}
 
 
