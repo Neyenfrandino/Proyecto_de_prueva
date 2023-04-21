@@ -426,6 +426,59 @@ section .Testimonio2:hover{
     border-radius: 25px;
 }
 
+.Servicios img{
+    width: 75px;
+    height: 75px;
+    background-color: rgba(6, 246, 42, 0.5) ;
+    border: solid  rgba(6, 246, 42, 0.5);
+    border-radius: 30px;
+}
+.Servicios{
+    display: flex;
+    position: absolute;
+    left: 280px;
+    top: 250px;
+}
+.servicio2{
+    background-color:rgba(6, 246, 42, 0.2);
+    text-align: center;
+    display:flex;
+    position: absolute;
+    border: solid rgba(6, 246, 42, 0.0);
+    border-radius: 50px;
+    margin: 0 auto;
+    padding: 25px;
+    width: 300px;
+    left: 150px;
+    top: 300px;
+}
+
+.Servicios3 img{
+    width: 75px;
+    height: 75px;
+    background-color: rgba(6, 246, 42, 0.5) ;
+    border: solid  rgba(6, 246, 42, 0.5);
+    border-radius: 30px;
+}
+.Servicios3{
+    display: flex;
+    position: absolute;
+    left: 880px;
+    top: 550px;
+}
+.servicio4{
+    background-color:rgba(6, 246, 42, 0.2);
+    text-align: center;
+    display:flex;
+    position: absolute;
+    border: solid rgba(6, 246, 42, 0.0);
+    border-radius: 50px;
+    margin: 0 auto;
+    padding: 25px;
+    width: 300px;
+    left: 750px;
+    top: 600px;
+}
 
 
 
