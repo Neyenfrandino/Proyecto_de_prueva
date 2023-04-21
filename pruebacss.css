@@ -321,6 +321,8 @@ section .Testimonio2:hover{
     background-color: rgba(6, 246, 42, 0.3) ;
     height: 100px;
     width: 550px;
+    border: solid rgba(6, 246, 42, 0.3);
+    border-radius: 25px;
 }
 .redes{
     display:flex;
@@ -385,6 +387,9 @@ section .Testimonio2:hover{
     background-color: rgba(6, 246, 42, 0.3);
     text-align: center;
     padding: 30px 30px 30px 30px;
+    margin: 20px ;
+    border: solid rgba(6, 246, 42, 0.3);
+    border-radius: 25px;
 }
 .portafolio img{
     height: 200px;
@@ -410,6 +415,9 @@ section .Testimonio2:hover{
     background-color:rgba(6, 246, 42, 0.3) ;
     text-align: center;
     padding: 30px 30px 30px 30px;
+    border: solid rgba(6, 246, 42, 0.3);
+    border-radius: 25px;
+    margin: 20px;
 }
 .portafolio2 img{
     height: 200px;
