@@ -429,8 +429,8 @@ section .Testimonio2:hover{
 .Servicios img{
     width: 75px;
     height: 75px;
-    background-color: rgba(6, 246, 42, 0.5) ;
-    border: solid  rgba(6, 246, 42, 0.5);
+    background-color: rgba(6, 246, 42, 0.9) ;
+    border: solid  rgba(6, 246, 42, 0.9);
     border-radius: 30px;
 }
 .Servicios{
@@ -456,8 +456,8 @@ section .Testimonio2:hover{
 .Servicios3 img{
     width: 75px;
     height: 75px;
-    background-color: rgba(6, 246, 42, 0.5) ;
-    border: solid  rgba(6, 246, 42, 0.5);
+    background-color: rgba(6, 246, 42, 0.9) ;
+    border: solid  rgba(6, 246, 42, 0.9);
     border-radius: 30px;
 }
 .Servicios3{
